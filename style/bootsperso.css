@@ -1,0 +1,42 @@
+
+/**
+ * Pour les tests
+ */
+
+.show_borders {
+	border: 1px solid black;
+}
+
+
+
+
+/**
+ * Pour les blocs
+ */
+.little_down {
+	margin-top: 5vh;
+}
+
+
+
+
+
+/**
+ * Pour le texte
+ */
+
+.center {
+	text-align: center;
+}
+
+.success {
+	color: green;
+}
+
+.warning {
+	color: orange;
+}
+
+.error {
+	color: red;
+}

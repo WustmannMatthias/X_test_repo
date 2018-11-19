@@ -1,0 +1,73 @@
+.ecran_connexion_top {
+	min-height: 20vh;
+	padding-top: 3.5vh;
+}
+
+.ecran_connexion_top h1 {
+	font-size: 3em;
+}
+
+.ecran_connexion_side {
+	min-height: 65vh;
+}
+
+.ecran_connexion_bottom {
+	min-height: 13vh;
+}
+
+.ecran_connexion form {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+.ecran_connexion form input {
+	margin-top: 6px;
+}
+
+.ecran_connexion form button {
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+	min-width: 12vw;
+	min-height: 5vh;
+}
+
+.ecran_connexion h2 {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.ecran_connexion #connexion {
+	margin-top: 3vh;
+}
+
+.ecran_connexion hr {
+	margin: 0;
+	border: 1px solid black;
+}
+
+.border_right {
+	border-right: 2px solid black;
+}
+
+#button_down {
+	margin-top: 5.5vh;
+}
+
+.ecran_connexion p.erreur {
+	color: red;
+}
+
+.ecran_connexion p.succes {
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+

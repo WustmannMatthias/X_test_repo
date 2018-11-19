@@ -1,0 +1,61 @@
+
+
+#interface_requetes {
+	display: block;
+	min-height: 22vh;
+	margin-bottom: 35vh;
+	margin-top: 10vh;
+	text-align: center;
+}
+
+#interface_requetes label {
+	font-size: 1.15em;
+	margin-bottom: 2vh;
+	display: inline-block;
+}
+
+#interface_requetes input {
+	color: black;
+	margin-bottom: 2.6vh;
+}
+
+#interface_requetes input[type="text"] {
+	width: 50vw;
+}
+
+
+#resultat_requete {
+	color: white;
+	display: block;
+	padding-top: 7vh;
+	padding-left: 9vh;
+	text-align: center;
+}
+
+#resultat_requete table {
+	border: 3px solid black;
+}
+
+#resultat_requete thead th {
+	font-size: 1.25em;
+	font-weight: bold;
+	color: blue;
+}
+
+#resultat_requete td, th {
+	border: 1px solid black;
+	padding: 8px;
+	font-size: 1.15em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

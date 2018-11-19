@@ -1,0 +1,366 @@
+* {
+	font-family: Ubuntu;
+	color: #4D0A22;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(45deg, #FEE9F1 0%, #D5CDD0 80%);
+}
+
+
+/**
+ * NAVBAR
+ */
+
+nav.my_navbar {
+	background: linear-gradient(45deg, #A6C4CB 0%, #9AADB1 80%);
+	box-sizing: border-box;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	margin-top: -20px;
+	height: 7.6vh;
+	border-top: 2px solid black;
+}
+
+nav.my_navbar .navbar_item {
+	padding: 0;
+	display: inline-block;
+	width: 16vw;
+	margin-right: 15vw;
+	margin-top: 1.4vh;
+}
+nav.my_navbar .navbar_item:first-child {
+	margin-left: 5vw;
+	width: 10vw;
+	margin-right: 0vw;
+}
+nav.my_navbar .navbar_item:last-child {
+	margin-right: 0;
+}
+
+nav.my_navbar .navbar_item span.navbar_label {
+	font-size: 1.7em;
+}
+
+
+/*
+ * ASIDE
+ */
+.my_aside {
+	border-right: 2px solid black;
+}
+
+.my_list_group_item {
+	background: linear-gradient(to right, #FEFAD0 0%, #FFFABC 80%);
+	height: 9vh;
+	padding-top: 2.25vh;
+	font-size: 1.45em;
+}
+.my_list_group_item:hover {
+	background-color: #FFF78E;	
+}
+.list-group-item:hover {
+	background-color: #FFF78E;	
+}
+.my_active {
+	background: #FFF78E;
+}
+.my_active:hover {
+	background-color: #FFF78E;
+}
+.my_list_group_item span {
+	margin-top: 1vh;
+}
+
+
+
+/**
+ * RESTE DE LA PAGE
+ */
+.page_content {
+	box-sizing: border-box;
+	height: 92vh;
+	margin-top: 4.9vh; /*navbar height*/
+	padding: 0;
+	overflow: auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+
+
+
+/*
+ * 	MAIN
+ */
+
+
+
+
+/*Page accueil*/
+.zone_cycles {
+	padding-top: 0vh;
+	margin: 0;
+	height: 44vh;
+	border-bottom: 2px solid black;
+}
+
+.zone_medias {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.cycle_media {
+	background: linear-gradient(to right, #FEFAD0 0%, #FFFABC 60%);
+	width: 31.0vh;
+	height: 31.0vh;
+	margin-left: 10vw;
+	display: inline-block;
+	border-radius: 6px;
+	padding: 2vh;
+	border: 2px solid #9AADB1;
+	cursor: pointer;
+}
+
+.cycle_media h3 {
+	margin-bottom: 2vh;
+}
+
+.cycle_media ul {
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	font-size: 1.1em;
+}
+
+.cycle_media p {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+
+.lien_ajout_cycle {
+	margin-top: 1.6vh;
+	margin-left: 0.8vw;
+	margin-bottom: 1.2vh;
+	display: inline-block;
+	font-size: 1.4em;
+}
+.lien_ajout_cycle:hover {
+	text-decoration: none;
+}
+.lien_ajout_cycle:focus {
+	text-decoration: none;
+	color: #337AB7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * MODALS
+ */
+
+.modal_content {
+	background-color: #FFFEDF;
+}
+
+
+.modal_header {
+	
+}
+.modal_header h3 {
+	display: inline;
+}
+.modal_header .close_button {
+	display: inline-block;
+	margin-top: 0.8vh;
+}
+
+.modal_button_zone {
+	text-align: center;
+}
+.modal_button_zone button {
+	height: 6.0vh;
+	margin-right: 3vw;
+	font-size: 1.5em;
+}
+.modal_button_zone button:last-child {
+	margin-right: 0;
+}
+
+
+.modal_form {
+	
+}
+
+.modal_form label {
+	text-align: right;
+}
+
+.modal_form .champs_optionnel {
+	display: none;
+}
+.modal_form .champs_optionnel_vente {
+	display: none;
+}
+
+
+
+/**
+ * Modals Cycles
+ */
+
+.modal_cycle .modal_cyle_commentaire {
+	text-align: center;
+	font-size: 1.6em;
+	
+}
+
+.modal_cycle hr {
+	margin: 0;
+	margin-bottom: 30px; 
+	width: 100%;
+}
+
+.modal_cycle .hr_liste {
+	margin: 15px;
+}
+
+.modal_cycle {
+	width: 70vw;
+	margin-left: -16vw;
+}
+
+
+
+
+/**
+ * GENERAL
+ */
+.my_table {
+	border: 2px solid #9AADB1;
+	font-size: 1.1em;
+}
+.my_table th {
+	border: 2px solid #9AADB1;
+}
+
+
+
+
+
+.messageErreurCreationCycle, .messageErreurEnregistrementVente, .messageErreurEnregistrementRetraitMarchandise,
+		.messageErreurRemboursementHandicap, .messageErreurRemboursementDiffere {
+	margin-top: 2.8vh;
+	margin-left: 1vw;
+	display: inline-block;
+	color: red;
+	font-size: 1.3em;
+}
+
+.messageConfirmationCreationCycle, .messageConfirmationEnregistrementVente, .messageConfirmationEnregistrementRetraitMarchandise, 
+		.messageConfirmationRemboursementHandicap, .messageConfirmationRemboursementDiffere {
+	margin-top: 2.8vh;
+	margin-left: 1vw;
+	display: inline-block;
+	color: green;
+	font-size: 1.3em;
+}
+
+
+
+p.infos {
+	font-size: 1.3em;
+	display: block;
+	margin-top: 2.5vh;
+	font-style: italic;
+	margin-left: 3vw;
+}
+
+
+form input[type="checkbox"] {
+	text-align: right;
+	display: inline-block;
+	margin-right: -30px;
+}
+
+form.form_search div {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+form.remboursement_differe input {
+	width: 7.9vw;
+	text-align: center;
+}
+
+
+
+
+
+
+/**
+ * 	Tableaux modal cycle
+ */
+table.modal_table {
+	border: 2px solid #99053A;
+	width: 100%;
+	font-size: 1.3em;
+	border-collapse: collapse;
+	margin-bottom: 3vh;
+}
+
+table.modal_table caption {
+	font-size: 1.2em;
+	text-align: center;
+	color: #046780;
+}
+
+table.modal_table tr {
+	
+}
+
+table.modal_table td {
+	text-align: center;
+	border: 3px solid #99053A;
+	padding: 4px;
+}
+table.modal_table td:first-child {
+	width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
