@@ -4,7 +4,7 @@
 	 * Ce programme est appelé lors de la validation du formulaire du modal ajout_client.
 	 * Son role est de récupérer les informations du formulaire et d'ajouter un nouveau client à la base de données.
 	 */
-	
+	//modif
 	session_start();
 	$IDcompte = $_SESSION['ID'];
 	
